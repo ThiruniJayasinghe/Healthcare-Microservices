@@ -219,17 +219,6 @@ spring.kafka.consumer.key-deserializer=org.apache.kafka.common.serialization.Str
 spring.kafka.consumer.value-deserializer=org.apache.kafka.common.serialization.ByteArrayDeserializer
 ```
 
-
-# Notification Service
-
----
-
-## Environment Vars
-
-```
-SPRING_KAFKA_BOOTSTRAP_SERVERS=kafka:9092
-```
-
 ## Protobuf/Kafka 
 
 Dependencies (add in addition to whats there)
